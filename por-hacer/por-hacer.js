@@ -50,7 +50,7 @@ const actualizar = (descripcion, completado = true) => {
     let index = listadoPorHacer.findIndex(tarea => tarea.descripcion === descripcion);
 
     if(index >= 0){
-        listadoPorHacer[index].completado = completado;
+        listadoPorHacer[index].completado = (completado=="false")?false:true;
         guardarDB();
         return true;
     }else{
