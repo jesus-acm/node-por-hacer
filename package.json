@@ -6,10 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesus-acm/node-por-hacer.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesus-acm/node-por-hacer/issues"
+  },
+  "homepage": "https://github.com/jesus-acm/node-por-hacer#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "yargs": "^15.3.1"
+    "inquirer": "^8.1.1",
+    "uuid": "^8.3.2"
   }
 }
